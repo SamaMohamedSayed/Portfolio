@@ -1,0 +1,407 @@
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 0em;
+    }
+    body{
+        font-size: 0.6em;
+        width: 100%;
+    }
+    #home{
+        width: 100%;
+        height: 150vh;
+    }
+    #home .home-text{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1em;
+    }
+    #home .home-text h1{
+        font-size: 5em;
+    }
+    #home .home-text p{
+        width: 100%;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+    #about {
+        height: 80vh;
+    }
+    #about h1{
+        font-size: 4em;
+    }
+    #about p{
+        font-size: 1.6em;
+        width: 90%;
+
+    }
+    #about .cards{
+        width: 100%;
+        flex-direction: column;    
+    }
+    #about .cards .bar{
+        width: 90%;
+    }
+    .progress-line{
+        height: 2px;
+    }
+    .progress-line span{
+        height: 3px;
+    }
+    .progress-line span::before{
+    height: 0;
+    width: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(0, 0, 0);
+    margin-bottom: 200px;       
+}
+.progress-line span::after{
+    position: absolute;
+    right: -30px;
+    font-size: 1.6em;
+    top: -45px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.info span{
+    font-size: 1.6em;
+}
+.info i{
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-right:5px ;
+}
+
+#project .title{
+    font-size: 1.7em;
+}
+.title p{
+    margin-bottom: 170px;
+}
+#project .images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -130px;
+}
+#project .images img{
+    width: 50%;
+    margin-top: 0px;
+    transition: 0.4;
+
+}
+
+#test{
+    height: 110vh;
+    margin-top: 11em;
+}
+#test h1{
+    font-size: 4em;
+    margin-top: 10px;
+    font-family: "poppins",sans-serif;
+}
+#test .text{
+    width: 100%;
+    /* height: 20%; */
+}
+.text p{
+    font-size: 1.6em;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 20px;
+}
+.text .img {
+    margin: 10em 0;
+}
+
+#test h3{
+    font-size: 2em;
+}
+#test .test-icons i{
+    font-size: 1em;
+    margin-top: 2em;
+}
+#service{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 15em 0;
+}
+#service .title h1{
+    font-size: 4em;
+}
+#service .title p{
+    font-size: 1.7em;
+}
+
+#service .box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#service .box .card {
+    width: 100%;
+    margin: 2em 0;
+} 
+#service .box  h3,#service .box .icon{
+    font-size: 2.5em;
+}
+#service .box  p{
+    font-size: 1.7em;
+}
+#blog .title h1{
+    font-size:4em ;
+    margin-top: 1.5em;
+}
+#blog .title p{
+    font-size: 1.7em;
+}
+#blog .box .card a{
+    font-size: 1.8em;
+}
+#blog .title .blog-btn{
+    font-size: 1.5em;
+    width: 170px;
+    margin: 20px  0;
+}
+#blog{
+    height: 325vh;
+}
+#blog .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+}
+
+#blog .box .image{
+    width: 100%;
+}
+#blog .box .image img{
+    width: 100%;
+    height: 213px;
+}
+#blog .box .card{
+    width: 100%;
+    height: 500px;
+    margin:2em 0 ;
+}
+#blog .box .card h2{
+    font-size: 2.6em;
+    
+}
+#blog .box .card p{
+    font-size: 1.7em;
+}
+.border .container{
+    display: flex;
+    flex-direction: column;
+}
+.border .container h1{
+    font-size: 7em;
+}
+.border .container h3{
+    font-size: 2.2em;
+}
+
+.border .container .content{
+    margin: 1.5em 0;
+}
+
+#team{
+    height: 140vh;
+}
+
+#team .title h1{
+    font-size: 4em;
+}
+#team .title p{
+    font-size: 1.7em;
+}
+#team .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#team .box .card{
+    width: 100%;
+    margin: 1.5em 0;
+}
+#team .box .description h3{
+    font-size: 2em;
+}
+#team .box .card p.job{
+    font-size: 1.7em;
+}
+#team .box .card p{
+    font-size: 1.7em;
+}
+.description .icons a i{
+    font-size: 1.4em;
+}
+
+#contact{
+    height: 150vh;
+}
+#contact h1{
+    font-size: 3.5em;
+}
+#contact .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1em;
+}
+
+#contact h5{
+    margin-left: 0;
+    width: 100%;
+}
+
+#contact .contact .support{
+    margin-left: 1em;
+    width: 100%;
+}
+#contact .contact .support p{
+    font-size: 1.5em;
+    width: 100%;
+    padding-left: 2em;
+    margin-right: 40em;
+}
+#contact .contact .support h5{
+    font-size: 2em;
+    margin-right: 9.2em;
+}
+#contact .contact .address{    
+    width: 100%;
+    margin-left:1em ;
+}
+#contact .contact .address h5{
+    font-size: 2em;
+}
+#contact .contact .address p{
+    font-size:  1.5em;   
+    margin-left: -13em; 
+    padding-left: 3em;
+}
+#contact .contact .icons{
+    position: relative;
+    left: -22em;
+    margin: 2em 0;
+}
+#contact .contact .icons i{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#contact form {
+    width: 100%;
+}
+#contact form .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact form .info div{
+    width: 95%;
+}
+#contact form .info div input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#contact form .info div label{
+    font-size: 1.7em;
+}
+#contact form textarea{
+    width: 95%;
+    margin-left: 14px; 
+}
+
+.text-area{
+    margin-left: 14px;
+    font-size: 1.5em;
+}
+#contact form button{
+    position: relative;
+    left: 65%;
+    padding: 15px 0px;
+    font-size: 1.5em;
+}
+
+footer{
+    height: 75vh;
+   }
+
+   footer .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+   }
+   footer .container h2{
+    font-size: 3em;
+  }
+  footer .container .info .inforamation{
+    margin-left: -100px;
+  }
+  footer .container ul li a{
+    margin: 1em 0;
+  }
+  .copy-right p{
+    font-size: 1.6em;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:992px){
+    #home .home-text h1{
+        font-size: 2.5em;
+    }
+    #home .btn{
+       display: flex;
+       flex-direction: column;
+    }
+    #project{
+        height: 49vh;
+    }
+    #test{
+        height: 103vh;
+    }
+    #blog{
+        height: 200vh;
+    }
+    #blog .box{
+       flex-wrap: wrap;  
+    }
+    #blog .box .card{
+        width: 45%;
+    }
+    #contact form .info div input{
+        width: 200px;
+    }   
+    #contact form button{
+        left:73%
+    }    
+    #team .box .card .description{
+    text-align: left;
+    margin-left: 0;
+    }
+}
